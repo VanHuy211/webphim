@@ -1,0 +1,1016 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|c:\\users\\tuvan\\desktop\\movieweb1-master\\movieweb1-master\\movieweb\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\shared\\_layoutpage1.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\Shared\\_Layoutss2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:MovieWeb\\Views\\Shared\\_Layoutss2.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\Shared\\Error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:MovieWeb\\Views\\Shared\\Error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\HomeAdmin\\Home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:MovieWeb\\Views\\HomeAdmin\\Home.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:MovieWeb\\Views\\Shared\\_Layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\lichsuxem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\lichsuxem\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\home\\timkiem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\home\\timkiem.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\gioithieu\\gioithieuwebxemphim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\gioithieu\\gioithieuwebxemphim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\dsphim\\themtapphim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\dsphim\\themtapphim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DSPhim\\ThemPhimLe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:MovieWeb\\Views\\DSPhim\\ThemPhimLe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\dsphim\\suatap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\dsphim\\suatap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\dsphim\\suaphimle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\dsphim\\suaphimle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\dsphim\\suaphim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\dsphim\\suaphim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DSPhim\\DSPhimLe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:MovieWeb\\Views\\DSPhim\\DSPhimLe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DSPhim\\DSPhimBo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:MovieWeb\\Views\\DSPhim\\DSPhimBo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\dsphim\\cttapphimbo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\dsphim\\cttapphimbo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\dsphim\\chitietphimle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\dsphim\\chitietphimle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\danhmuc\\tintuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\danhmuc\\tintuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\danhmuc\\themtintuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\danhmuc\\themtintuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\danhmuc\\themtheloai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\danhmuc\\themtheloai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\danhmuc\\themquocgia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\danhmuc\\themquocgia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\danhmuc\\themnam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\danhmuc\\themnam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\danhmuc\\theloai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\danhmuc\\theloai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\danhmuc\\suatintuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\danhmuc\\suatintuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\danhmuc\\suatheloai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\danhmuc\\suatheloai.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\danhmuc\\suaquocgia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\danhmuc\\suaquocgia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\danhmuc\\suanam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\danhmuc\\suanam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\danhmuc\\suagioithieu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\danhmuc\\suagioithieu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\danhmuc\\suabanner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\danhmuc\\suabanner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\danhmuc\\quocgia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\danhmuc\\quocgia.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\danhmuc\\namphathanh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\danhmuc\\namphathanh.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\danhmuc\\gioithieuwebxemphim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\danhmuc\\gioithieuwebxemphim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\danhmuc\\banner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\danhmuc\\banner.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\dangnhapdangky\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\dangnhapdangky\\dangnhap.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\dangnhapdangky\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\dangnhapdangky\\dangky.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\ChiTietPhim\\ChiTietPhimLe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:MovieWeb\\Views\\ChiTietPhim\\ChiTietPhimLe.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\ChiTietPhim\\ChiTietPhim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:MovieWeb\\Views\\ChiTietPhim\\ChiTietPhim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\timkiem\\timkiemnam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\timkiem\\timkiemnam.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\tintucphim\\tintuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\tintucphim\\tintuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\tintucphim\\chitiettintuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\tintucphim\\chitiettintuc.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\xemphim\\xemphimle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\xemphim\\xemphimle.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\XemPhim\\XemPhim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:MovieWeb\\Views\\XemPhim\\XemPhim.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\xemsau\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\xemsau\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\controllers\\lichsuxemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\controllers\\lichsuxemcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\app_start\\filterconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\controllers\\chitietphimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\controllers\\chitietphimcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\controllers\\dangnhapdangkycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\controllers\\dangnhapdangkycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\favicon.ico||{177559E0-D141-11D0-92DF-00A0C9138C45}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\global.asax.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\properties\\assemblyinfo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\web.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\packages.config||{FA3CD31E-987B-443A-9B81-186104E8DAC1}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\app_start\\routeconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\app_start\\bundleconfig.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\models\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\movieweb\\controllers\\adminarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:movieweb\\controllers\\adminarearegistration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Controllers\\DSPhimController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:MovieWeb\\Controllers\\DSPhimController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Controllers\\HomeAdminController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:MovieWeb\\Controllers\\HomeAdminController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DSPhim\\ThemPhimBo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B710A8AB-62D2-460B-A9D6-B030C25A13CE}|MovieWeb\\MovieWeb.csproj|solutionrelative:MovieWeb\\Views\\DSPhim\\ThemPhimBo.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "SuaPhimLe.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DSPhim\\SuaPhimLe.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DSPhim\\SuaPhimLe.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DSPhim\\SuaPhimLe.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DSPhim\\SuaPhimLe.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:15:24.935Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SuaPhim.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DSPhim\\SuaPhim.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DSPhim\\SuaPhim.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DSPhim\\SuaPhim.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DSPhim\\SuaPhim.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:15:23.679Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GioiThieuWebXemPhim.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\GioiThieu\\GioiThieuWebXemPhim.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\GioiThieu\\GioiThieuWebXemPhim.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\GioiThieu\\GioiThieuWebXemPhim.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\GioiThieu\\GioiThieuWebXemPhim.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:09:20.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAmwBQAAABEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T20:26:28.998Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "TimKiem.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\Home\\TimKiem.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\Home\\TimKiem.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\Home\\TimKiem.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\Home\\TimKiem.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABEAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:08:47.409Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAHoAAAAAAAAAAAAkwJIAAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T20:26:28.994Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "_LayoutPage1.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\Shared\\_LayoutPage1.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\Shared\\_LayoutPage1.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\Shared\\_LayoutPage1.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\Shared\\_LayoutPage1.cshtml",
+              "ViewState": "AQIAANEAAAAAAAAAAAAuwMoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T20:26:28.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Home.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\HomeAdmin\\Home.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\HomeAdmin\\Home.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\HomeAdmin\\Home.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\HomeAdmin\\Home.cshtml",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAA8AAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T20:26:28.991Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\Shared\\Error.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\Shared\\Error.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\Shared\\Error.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T20:26:29.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "_Layoutss2.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\Shared\\_Layoutss2.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\Shared\\_Layoutss2.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\Shared\\_Layoutss2.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\Shared\\_Layoutss2.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB4AAABxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T20:26:28.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "SuaTap.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DSPhim\\SuaTap.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DSPhim\\SuaTap.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DSPhim\\SuaTap.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DSPhim\\SuaTap.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:15:26.14Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ThemTapPhim.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DSPhim\\ThemTapPhim.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DSPhim\\ThemTapPhim.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DSPhim\\ThemTapPhim.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DSPhim\\ThemTapPhim.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:15:29.279Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\LichSuXem\\Index.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\LichSuXem\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\LichSuXem\\Index.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\LichSuXem\\Index.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAxAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:15:46.831Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ChiTietPhimLe.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DSPhim\\ChiTietPhimLe.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DSPhim\\ChiTietPhimLe.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DSPhim\\ChiTietPhimLe.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DSPhim\\ChiTietPhimLe.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:13:27.022Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TinTuc.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\TinTuc.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DanhMuc\\TinTuc.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\TinTuc.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DanhMuc\\TinTuc.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:15:16.69Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "ThemTinTuc.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\ThemTinTuc.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DanhMuc\\ThemTinTuc.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\ThemTinTuc.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DanhMuc\\ThemTinTuc.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:15:15.023Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "ThemTheLoai.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\ThemTheLoai.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DanhMuc\\ThemTheLoai.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\ThemTheLoai.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DanhMuc\\ThemTheLoai.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:15:13.92Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "ThemQuocGia.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\ThemQuocGia.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DanhMuc\\ThemQuocGia.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\ThemQuocGia.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DanhMuc\\ThemQuocGia.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:15:12.709Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ThemNam.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\ThemNam.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DanhMuc\\ThemNam.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\ThemNam.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DanhMuc\\ThemNam.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:15:10.779Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ThemPhimLe.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DSPhim\\ThemPhimLe.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DSPhim\\ThemPhimLe.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DSPhim\\ThemPhimLe.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DSPhim\\ThemPhimLe.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T20:26:29.012Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TheLoai.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\TheLoai.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DanhMuc\\TheLoai.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\TheLoai.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DanhMuc\\TheLoai.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:15:09.641Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "CTTapPhimBo.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DSPhim\\CTTapPhimBo.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DSPhim\\CTTapPhimBo.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DSPhim\\CTTapPhimBo.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DSPhim\\CTTapPhimBo.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:13:28.343Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "DSPhimBo.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DSPhim\\DSPhimBo.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DSPhim\\DSPhimBo.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DSPhim\\DSPhimBo.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DSPhim\\DSPhimBo.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACEAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T20:26:29.011Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "DSPhimLe.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DSPhim\\DSPhimLe.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DSPhim\\DSPhimLe.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DSPhim\\DSPhimLe.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DSPhim\\DSPhimLe.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T20:26:29.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "SuaTinTuc.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\SuaTinTuc.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DanhMuc\\SuaTinTuc.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\SuaTinTuc.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DanhMuc\\SuaTinTuc.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:15:07.65Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "SuaTheLoai.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\SuaTheLoai.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DanhMuc\\SuaTheLoai.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\SuaTheLoai.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DanhMuc\\SuaTheLoai.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:15:06.666Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "SuaQuocGia.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\SuaQuocGia.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DanhMuc\\SuaQuocGia.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\SuaQuocGia.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DanhMuc\\SuaQuocGia.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:15:05.357Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "ChiTietPhimLe.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\ChiTietPhim\\ChiTietPhimLe.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\ChiTietPhim\\ChiTietPhimLe.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\ChiTietPhim\\ChiTietPhimLe.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\ChiTietPhim\\ChiTietPhimLe.cshtml",
+              "ViewState": "AQIAAKgAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T20:26:29.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "DangKy.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DangNhapDangKy\\DangKy.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DangNhapDangKy\\DangKy.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DangNhapDangKy\\DangKy.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DangNhapDangKy\\DangKy.cshtml",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:09:36.583Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "DangNhap.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DangNhapDangKy\\DangNhap.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DangNhapDangKy\\DangNhap.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DangNhapDangKy\\DangNhap.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DangNhapDangKy\\DangNhap.cshtml",
+              "ViewState": "AQIAAAEAAAAAAAAAAAAmwBUAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:10:34.255Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "Banner.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\Banner.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DanhMuc\\Banner.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\Banner.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DanhMuc\\Banner.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAmwCYAAABIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:10:43.437Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "GioiThieuWebXemPhim.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\GioiThieuWebXemPhim.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DanhMuc\\GioiThieuWebXemPhim.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\GioiThieuWebXemPhim.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DanhMuc\\GioiThieuWebXemPhim.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:10:54.947Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "NamPhatHanh.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\NamPhatHanh.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DanhMuc\\NamPhatHanh.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\NamPhatHanh.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DanhMuc\\NamPhatHanh.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:11:03.197Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "QuocGia.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\QuocGia.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DanhMuc\\QuocGia.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\QuocGia.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DanhMuc\\QuocGia.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:11:16.77Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "SuaBanner.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\SuaBanner.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DanhMuc\\SuaBanner.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\SuaBanner.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DanhMuc\\SuaBanner.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAaAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:11:24.418Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "SuaGioiThieu.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\SuaGioiThieu.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DanhMuc\\SuaGioiThieu.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\SuaGioiThieu.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DanhMuc\\SuaGioiThieu.cshtml",
+              "ViewState": "AQIAACEAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:11:26.403Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SuaNam.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\SuaNam.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DanhMuc\\SuaNam.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DanhMuc\\SuaNam.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DanhMuc\\SuaNam.cshtml",
+              "ViewState": "AQIAABIAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:11:32.071Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "ChiTietPhim.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\ChiTietPhim\\ChiTietPhim.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\ChiTietPhim\\ChiTietPhim.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\ChiTietPhim\\ChiTietPhim.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\ChiTietPhim\\ChiTietPhim.cshtml",
+              "ViewState": "AQIAAIoAAAAAAAAAAAAmwJ4AAAB1AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T20:26:29.006Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 43,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\XemSau\\Index.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\XemSau\\Index.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\XemSau\\Index.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\XemSau\\Index.cshtml",
+              "ViewState": "AQIAAB4AAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:12:31.188Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 41,
+              "Title": "XemPhimLe.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\XemPhim\\XemPhimLe.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\XemPhim\\XemPhimLe.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\XemPhim\\XemPhimLe.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\XemPhim\\XemPhimLe.cshtml",
+              "ViewState": "AQIAADYAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:12:46.537Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "ChiTietTinTuc.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\TinTucPhim\\ChiTietTinTuc.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\TinTucPhim\\ChiTietTinTuc.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\TinTucPhim\\ChiTietTinTuc.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\TinTucPhim\\ChiTietTinTuc.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:12:53.615Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 39,
+              "Title": "TinTuc.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\TinTucPhim\\TinTuc.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\TinTucPhim\\TinTuc.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\TinTucPhim\\TinTuc.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\TinTucPhim\\TinTuc.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:13:01.336Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
+              "Title": "TimKiemNam.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\TimKiem\\TimKiemNam.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\TimKiem\\TimKiemNam.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\TimKiem\\TimKiemNam.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\TimKiem\\TimKiemNam.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-11-03T20:13:08.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 45,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\_ViewStart.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T20:35:01.061Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 42,
+              "Title": "XemPhim.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\XemPhim\\XemPhim.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\XemPhim\\XemPhim.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\XemPhim\\XemPhim.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\XemPhim\\XemPhim.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAADwAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T20:26:29.004Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 44,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\Web.config",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\Web.config",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\Web.config",
+              "RelativeToolTip": "MovieWeb\\Views\\Web.config",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-11T20:34:56.981Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 46,
+              "Title": "LichSuXemController.cs",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Controllers\\LichSuXemController.cs",
+              "RelativeDocumentMoniker": "MovieWeb\\Controllers\\LichSuXemController.cs",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Controllers\\LichSuXemController.cs",
+              "RelativeToolTip": "MovieWeb\\Controllers\\LichSuXemController.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-11-03T20:07:48.406Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 49,
+              "Title": "DangNhapDangKyController.cs",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Controllers\\DangNhapDangKyController.cs",
+              "RelativeDocumentMoniker": "MovieWeb\\Controllers\\DangNhapDangKyController.cs",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Controllers\\DangNhapDangKyController.cs",
+              "RelativeToolTip": "MovieWeb\\Controllers\\DangNhapDangKyController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T20:36:44.131Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 54,
+              "Title": "packages.config",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\packages.config",
+              "RelativeDocumentMoniker": "MovieWeb\\packages.config",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\packages.config",
+              "RelativeToolTip": "MovieWeb\\packages.config",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-11T20:34:37.817Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 55,
+              "Title": "RouteConfig.cs",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\App_Start\\RouteConfig.cs",
+              "RelativeDocumentMoniker": "MovieWeb\\App_Start\\RouteConfig.cs",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\App_Start\\RouteConfig.cs",
+              "RelativeToolTip": "MovieWeb\\App_Start\\RouteConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAQAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T20:33:18.32Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 56,
+              "Title": "BundleConfig.cs",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\App_Start\\BundleConfig.cs",
+              "RelativeDocumentMoniker": "MovieWeb\\App_Start\\BundleConfig.cs",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\App_Start\\BundleConfig.cs",
+              "RelativeToolTip": "MovieWeb\\App_Start\\BundleConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAdAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T20:33:11.5Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 53,
+              "Title": "Web.config",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Web.config",
+              "RelativeDocumentMoniker": "MovieWeb\\Web.config",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Web.config",
+              "RelativeToolTip": "MovieWeb\\Web.config",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAEcAAAA+AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000601|",
+              "WhenOpened": "2024-10-11T20:26:28.85Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 52,
+              "Title": "AssemblyInfo.cs",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Properties\\AssemblyInfo.cs",
+              "RelativeDocumentMoniker": "MovieWeb\\Properties\\AssemblyInfo.cs",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Properties\\AssemblyInfo.cs",
+              "RelativeToolTip": "MovieWeb\\Properties\\AssemblyInfo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T20:35:44.052Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "Global.asax.cs",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Global.asax.cs",
+              "RelativeDocumentMoniker": "MovieWeb\\Global.asax.cs",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Global.asax.cs",
+              "RelativeToolTip": "MovieWeb\\Global.asax.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T20:34:44.091Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 50,
+              "Title": "favicon.ico - Icon [16x16, 32 bit, BMP]",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\favicon.ico",
+              "RelativeDocumentMoniker": "MovieWeb\\favicon.ico",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\favicon.ico - Icon [16x16, 32 bit, BMP]",
+              "RelativeToolTip": "MovieWeb\\favicon.ico - Icon [16x16, 32 bit, BMP]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001525|",
+              "WhenOpened": "2024-10-11T20:34:51.761Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 47,
+              "Title": "FilterConfig.cs",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\App_Start\\FilterConfig.cs",
+              "RelativeDocumentMoniker": "MovieWeb\\App_Start\\FilterConfig.cs",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\App_Start\\FilterConfig.cs",
+              "RelativeToolTip": "MovieWeb\\App_Start\\FilterConfig.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T20:33:17.001Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 48,
+              "Title": "ChiTietPhimController.cs",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Controllers\\ChiTietPhimController.cs",
+              "RelativeDocumentMoniker": "MovieWeb\\Controllers\\ChiTietPhimController.cs",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Controllers\\ChiTietPhimController.cs",
+              "RelativeToolTip": "MovieWeb\\Controllers\\ChiTietPhimController.cs",
+              "ViewState": "AQIAACoAAAAAAAAAAAAowAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T20:36:41.794Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 57,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Models\\Model1.edmx",
+              "RelativeDocumentMoniker": "MovieWeb\\Models\\Model1.edmx",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Models\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "MovieWeb\\Models\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2024-10-11T20:33:02.775Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 58,
+              "Title": "AdminAreaRegistration.cs",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Controllers\\AdminAreaRegistration.cs",
+              "RelativeDocumentMoniker": "MovieWeb\\Controllers\\AdminAreaRegistration.cs",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Controllers\\AdminAreaRegistration.cs",
+              "RelativeToolTip": "MovieWeb\\Controllers\\AdminAreaRegistration.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T20:32:59.009Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 59,
+              "Title": "DSPhimController.cs",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Controllers\\DSPhimController.cs",
+              "RelativeDocumentMoniker": "MovieWeb\\Controllers\\DSPhimController.cs",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Controllers\\DSPhimController.cs",
+              "RelativeToolTip": "MovieWeb\\Controllers\\DSPhimController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAFAAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T20:26:29Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 60,
+              "Title": "HomeAdminController.cs",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Controllers\\HomeAdminController.cs",
+              "RelativeDocumentMoniker": "MovieWeb\\Controllers\\HomeAdminController.cs",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Controllers\\HomeAdminController.cs",
+              "RelativeToolTip": "MovieWeb\\Controllers\\HomeAdminController.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABUAAAAqAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-11T20:26:29.003Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 61,
+              "Title": "ThemPhimBo.cshtml",
+              "DocumentMoniker": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DSPhim\\ThemPhimBo.cshtml",
+              "RelativeDocumentMoniker": "MovieWeb\\Views\\DSPhim\\ThemPhimBo.cshtml",
+              "ToolTip": "C:\\Users\\tuvan\\Desktop\\MovieWeb1-master\\MovieWeb1-master\\MovieWeb\\Views\\DSPhim\\ThemPhimBo.cshtml",
+              "RelativeToolTip": "MovieWeb\\Views\\DSPhim\\ThemPhimBo.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAC0AAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-11T20:26:29.014Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

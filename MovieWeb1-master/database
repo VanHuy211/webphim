@@ -1,0 +1,768 @@
+USE [master]
+GO
+CREATE DATABASE [dbDoAnWeb]
+GO
+ALTER DATABASE [dbDoAnWeb] SET COMPATIBILITY_LEVEL = 110
+GO
+IF (1 = FULLTEXTSERVICEPROPERTY('IsFullTextInstalled'))
+begin
+EXEC [dbDoAnWeb].[dbo].[sp_fulltext_database] @action = 'enable'
+end
+GO
+ALTER DATABASE [dbDoAnWeb] SET ANSI_NULL_DEFAULT OFF 
+GO
+ALTER DATABASE [dbDoAnWeb] SET ANSI_NULLS OFF 
+GO
+ALTER DATABASE [dbDoAnWeb] SET ANSI_PADDING OFF 
+GO
+ALTER DATABASE [dbDoAnWeb] SET ANSI_WARNINGS OFF 
+GO
+ALTER DATABASE [dbDoAnWeb] SET ARITHABORT OFF 
+GO
+ALTER DATABASE [dbDoAnWeb] SET AUTO_CLOSE ON 
+GO
+ALTER DATABASE [dbDoAnWeb] SET AUTO_CREATE_STATISTICS ON 
+GO
+ALTER DATABASE [dbDoAnWeb] SET AUTO_SHRINK OFF 
+GO
+ALTER DATABASE [dbDoAnWeb] SET AUTO_UPDATE_STATISTICS ON 
+GO
+ALTER DATABASE [dbDoAnWeb] SET CURSOR_CLOSE_ON_COMMIT OFF 
+GO
+ALTER DATABASE [dbDoAnWeb] SET CURSOR_DEFAULT  GLOBAL 
+GO
+ALTER DATABASE [dbDoAnWeb] SET CONCAT_NULL_YIELDS_NULL OFF 
+GO
+ALTER DATABASE [dbDoAnWeb] SET NUMERIC_ROUNDABORT OFF 
+GO
+ALTER DATABASE [dbDoAnWeb] SET QUOTED_IDENTIFIER OFF 
+GO
+ALTER DATABASE [dbDoAnWeb] SET RECURSIVE_TRIGGERS OFF 
+GO
+ALTER DATABASE [dbDoAnWeb] SET  ENABLE_BROKER 
+GO
+ALTER DATABASE [dbDoAnWeb] SET AUTO_UPDATE_STATISTICS_ASYNC OFF 
+GO
+ALTER DATABASE [dbDoAnWeb] SET DATE_CORRELATION_OPTIMIZATION OFF 
+GO
+ALTER DATABASE [dbDoAnWeb] SET TRUSTWORTHY OFF 
+GO
+ALTER DATABASE [dbDoAnWeb] SET ALLOW_SNAPSHOT_ISOLATION OFF 
+GO
+ALTER DATABASE [dbDoAnWeb] SET PARAMETERIZATION SIMPLE 
+GO
+ALTER DATABASE [dbDoAnWeb] SET READ_COMMITTED_SNAPSHOT OFF 
+GO
+ALTER DATABASE [dbDoAnWeb] SET HONOR_BROKER_PRIORITY OFF 
+GO
+ALTER DATABASE [dbDoAnWeb] SET RECOVERY SIMPLE 
+GO
+ALTER DATABASE [dbDoAnWeb] SET  MULTI_USER 
+GO
+ALTER DATABASE [dbDoAnWeb] SET PAGE_VERIFY CHECKSUM  
+GO
+ALTER DATABASE [dbDoAnWeb] SET DB_CHAINING OFF 
+GO
+ALTER DATABASE [dbDoAnWeb] SET FILESTREAM( NON_TRANSACTED_ACCESS = OFF ) 
+GO
+ALTER DATABASE [dbDoAnWeb] SET TARGET_RECOVERY_TIME = 0 SECONDS 
+GO
+USE [dbDoAnWeb]
+GO
+/****** Object:  Table [dbo].[Banner]    Script Date: 27/11/2019 4:58:52 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Banner](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[Img] [nvarchar](max) NULL,
+	[IDPhim] [int] NULL,
+ CONSTRAINT [PK_Banner] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+GO
+/****** Object:  Table [dbo].[CTTapPhim]    Script Date: 27/11/2019 4:58:52 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[CTTapPhim](
+	[IDPhim] [int] IDENTITY(1,1) NOT NULL,
+	[TapPhim] [int] NULL,
+	[ID] [int] NULL,
+	[Link] [nvarchar](max) NULL,
+ CONSTRAINT [PK_CTTapPhim] PRIMARY KEY CLUSTERED 
+(
+	[IDPhim] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+GO
+/****** Object:  Table [dbo].[DSPhimBo]    Script Date: 27/11/2019 4:58:52 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DSPhimBo](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[TenPhim] [nvarchar](max) NULL,
+	[NoiDung] [nvarchar](max) NULL,
+	[NamPhatHanh] [int] NULL,
+	[IDTheLoai] [int] NULL,
+	[ThoiLuong] [nvarchar](15) NULL,
+	[Img] [nvarchar](max) NULL,
+	[MaQG] [int] NULL,
+	[LuotXem] [int] NULL,
+ CONSTRAINT [PK_DSPhim1] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+GO
+/****** Object:  Table [dbo].[DSPhimLe]    Script Date: 27/11/2019 4:58:52 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[DSPhimLe](
+	[ID] [int] IDENTITY(1,1) NOT NULL,
+	[TenPhim] [nvarchar](max) NULL,
+	[NoiDung] [nvarchar](max) NULL,
+	[NamPhatHanh] [int] NULL,
+	[IDTheLoai] [int] NULL,
+	[ThoiLuong] [nvarchar](15) NULL,
+	[Img] [nvarchar](max) NULL,
+	[MaQG] [int] NULL,
+	[LuotXem] [int] NULL,
+	[Link] [nvarchar](max) NULL,
+ CONSTRAINT [PK_DSPhimLe] PRIMARY KEY CLUSTERED 
+(
+	[ID] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+GO
+/****** Object:  Table [dbo].[gioithieu]    Script Date: 27/11/2019 4:58:52 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[gioithieu](
+	[idgioitin] [int] IDENTITY(1,1) NOT NULL,
+	[noidung] [nvarchar](max) NULL,
+	[sdtlien] [nvarchar](max) NULL
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+GO
+/****** Object:  Table [dbo].[HopPhim]    Script Date: 27/11/2019 4:58:52 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[HopPhim](
+	[TenDN] [varchar](50) NOT NULL,
+	[IDPhim] [int] NOT NULL,
+ CONSTRAINT [PK_HopPhim1] PRIMARY KEY CLUSTERED 
+(
+	[TenDN] ASC,
+	[IDPhim] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+/****** Object:  Table [dbo].[LichSu]    Script Date: 27/11/2019 4:58:52 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING OFF
+GO
+CREATE TABLE [dbo].[LichSu](
+	[TenDN] [varchar](50) NOT NULL,
+	[IDPhim] [int] NOT NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[TenDN] ASC,
+	[IDPhim] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+/****** Object:  Table [dbo].[Nam]    Script Date: 27/11/2019 4:58:52 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[Nam](
+	[MaNam] [int] IDENTITY(1,1) NOT NULL,
+	[TenNam] [int] NULL,
+ CONSTRAINT [PK_Nam] PRIMARY KEY CLUSTERED 
+(
+	[MaNam] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+/****** Object:  Table [dbo].[QuocGia]    Script Date: 27/11/2019 4:58:52 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[QuocGia](
+	[MaQG] [int] IDENTITY(1,1) NOT NULL,
+	[TenQG] [nvarchar](50) NULL,
+ CONSTRAINT [PK_Quốc Gia] PRIMARY KEY CLUSTERED 
+(
+	[MaQG] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+/****** Object:  Table [dbo].[TaiKhoan]    Script Date: 27/11/2019 4:58:52 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+SET ANSI_PADDING ON
+GO
+CREATE TABLE [dbo].[TaiKhoan](
+	[TenDN] [varchar](50) NOT NULL,
+	[MatKhau] [varchar](50) NULL,
+	[Quyen] [bit] NULL,
+ CONSTRAINT [PK_TaiKhoan] PRIMARY KEY CLUSTERED 
+(
+	[TenDN] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+SET ANSI_PADDING OFF
+GO
+/****** Object:  Table [dbo].[TheLoai]    Script Date: 27/11/2019 4:58:52 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[TheLoai](
+	[IDTheLoai] [int] IDENTITY(1,1) NOT NULL,
+	[TenTheLoai] [nvarchar](50) NULL,
+ CONSTRAINT [PK_TheLoai] PRIMARY KEY CLUSTERED 
+(
+	[IDTheLoai] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY]
+
+GO
+/****** Object:  Table [dbo].[tintucphim]    Script Date: 27/11/2019 4:58:52 PM ******/
+SET ANSI_NULLS ON
+GO
+SET QUOTED_IDENTIFIER ON
+GO
+CREATE TABLE [dbo].[tintucphim](
+	[idtintuc] [int] IDENTITY(1,1) NOT NULL,
+	[tieude] [nvarchar](max) NULL,
+	[tomtat] [nvarchar](max) NULL,
+	[noidung] [nvarchar](max) NULL,
+	[hinhanh] [nvarchar](max) NULL,
+	[ngaycapnhat] [date] NULL,
+	[luotxem] [int] NULL,
+PRIMARY KEY CLUSTERED 
+(
+	[idtintuc] ASC
+)WITH (PAD_INDEX = OFF, STATISTICS_NORECOMPUTE = OFF, IGNORE_DUP_KEY = OFF, ALLOW_ROW_LOCKS = ON, ALLOW_PAGE_LOCKS = ON) ON [PRIMARY]
+) ON [PRIMARY] TEXTIMAGE_ON [PRIMARY]
+
+GO
+SET IDENTITY_INSERT [dbo].[Banner] ON 
+INSERT [dbo].[Banner] ([ID], [Img], [IDPhim]) VALUES (1, N'BC.jpg', 4)
+INSERT [dbo].[Banner] ([ID], [Img], [IDPhim]) VALUES (2, N'taxi driver.jpg', 1)
+INSERT [dbo].[Banner] ([ID], [Img], [IDPhim]) VALUES (3, N'bleach.jpg', 12)
+INSERT [dbo].[Banner] ([ID], [Img], [IDPhim]) VALUES (4, N'thuongnnv.jpg', 13)
+SET IDENTITY_INSERT [dbo].[Banner] OFF
+
+SET IDENTITY_INSERT [dbo].[CTTapPhim] ON 
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (1, 1, 1, N'https://chillhayb.com/play?id=221520')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (2, 2, 1, N'https://chillhayb.com/play?id=221521')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (3, 3, 1, N'https://chillhayb.com/play?id=221522')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (4, 4, 1, N'https://chillhayb.com/play?id=221523')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (5, 5, 1, N'https://chillhayb.com/play?id=221524')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (6, 6, 1, N'https://chillhayb.com/play?id=221525')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (7, 7, 1, N'https://chillhayb.com/play?id=221526')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (8, 8, 1, N'https://chillhayb.com/play?id=221527')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (9, 9, 1, N'https://chillhayb.com/play?id=221528')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (10, 10, 1, N'https://chillhayb.com/play?id=221529')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (11, 11, 1, N'https://chillhayb.com/play?id=221530')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (12, 12, 1, N'https://chillhayb.com/play?id=221531')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (13, 13, 1, N'https://chillhayb.com/play?id=221532')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (14, 14, 1, N'https://chillhayb.com/play?id=221533')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (15, 15, 1, N'https://chillhayb.com/play?id=221534')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (16, 16, 1, N'https://chillhayb.com/play?id=221535')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (17, 17, 1, N'https://chillhayb.com/play?id=221536')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (18, 18, 1, N'https://chillhayb.com/play?id=221537')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (19, 19, 1, N'https://chillhayb.com/play?id=221538')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (20, 20, 1, N'https://chillhayb.com/play?id=221539')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (21, 21, 1, N'https://chillhayb.com/play?id=221540')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (22, 22, 1, N'https://chillhayb.com/play?id=221541')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (23, 23, 1, N'https://chillhayb.com/play?id=221542')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (24, 24, 1, N'https://chillhayb.com/play?id=221543')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (25, 25, 1, N'https://chillhayb.com/play?id=221544')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (26, 26, 1, N'https://chillhayb.com/play?id=221545')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (27, 27, 1, N'https://chillhayb.com/play?id=221546')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (28, 28, 1, N'https://chillhayb.com/play?id=221547')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (29, 29, 1, N'https://chillhayb.com/play?id=221548')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (30, 30, 1, N'https://chillhayb.com/play?id=221549')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (31, 31, 1, N'https://chillhayb.com/play?id=221550')
+--Hong hoang
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (32, 1, 2, N'https://chillhayb.com/play?id=466220')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (33, 2, 2, N'https://chillhayb.com/play?id=466221')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (34, 3, 2, N'https://chillhayb.com/play?id=466222')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (35, 4, 2, N'https://chillhayb.com/play?id=466223')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (36, 5, 2, N'https://chillhayb.com/play?id=466224')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (37, 6, 2, N'https://chillhayb.com/play?id=466225')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (38, 7, 2, N'https://chillhayb.com/play?id=466226')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (39, 8, 2, N'https://chillhayb.com/play?id=466227')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (40, 9, 2, N'https://chillhayb.com/play?id=466228')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (41, 10, 2, N'https://chillhayb.com/play?id=466229')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (42, 11, 2, N'https://chillhayb.com/play?id=466230')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (43, 12, 2, N'https://chillhayb.com/play?id=466231')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (44, 13, 2, N'https://chillhayb.com/play?id=466232')
+--gia dinh la so 1
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (54, 1, 11, N'https://chillhayb.com/play?id=159080')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (46, 2, 11, N'https://chillhayb.com/play?id=159081')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (47, 3, 11, N'https://chillhayb.com/play?id=159082')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (48, 4, 11, N'https://chillhayb.com/play?id=159083')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (49, 5, 11, N'https://chillhayb.com/play?id=159084')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (50, 6, 11, N'https://chillhayb.com/play?id=159085')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (51, 7, 11, N'https://chillhayb.com/play?id=159086')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (52, 8, 11, N'https://chillhayb.com/play?id=159087')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (53, 9, 11, N'https://chillhayb.com/play?id=159088')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (54, 10, 11, N'https://chillhayb.com/play?id=159089')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (55, 11, 11, N'https://chillhayb.com/play?id=159090')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (56, 12, 11, N'https://chillhayb.com/play?id=159091')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (57, 13, 11, N'https://chillhayb.com/play?id=159092')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (58, 14, 11, N'https://chillhayb.com/play?id=159093')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (59, 15, 11, N'https://chillhayb.com/play?id=159094')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (60, 16, 11, N'https://chillhayb.com/play?id=159095')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (61, 17, 11, N'https://chillhayb.com/play?id=159096')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (62, 18, 11, N'https://chillhayb.com/play?id=159097')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (63, 19, 11, N'https://chillhayb.com/play?id=159098')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (64, 20, 11, N'https://chillhayb.com/play?id=159099')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (65, 21, 11, N'https://chillhayb.com/play?id=159100')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (66, 22, 11, N'https://chillhayb.com/play?id=159101')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (67, 23, 11, N'https://chillhayb.com/play?id=159102')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (68, 24, 11, N'https://chillhayb.com/play?id=159103')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (69, 25, 11, N'https://chillhayb.com/play?id=159104')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (70, 26, 11, N'https://chillhayb.com/play?id=159105')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (71, 27, 11, N'https://chillhayb.com/play?id=159106')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (72, 28, 11, N'https://chillhayb.com/play?id=159107')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (73, 29, 11, N'https://chillhayb.com/play?id=159108')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (74, 30, 11, N'https://chillhayb.com/play?id=159109')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (75, 31, 11, N'https://chillhayb.com/play?id=159110')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (76, 32, 11, N'https://chillhayb.com/play?id=159111')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (77, 33, 11, N'https://chillhayb.com/play?id=159112')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (78, 34, 11, N'https://chillhayb.com/play?id=159113')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (79, 35, 11, N'https://chillhayb.com/play?id=159114')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (80, 36, 11, N'https://chillhayb.com/play?id=159115')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (81, 37, 11, N'https://chillhayb.com/play?id=159116')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (82, 38, 11, N'https://chillhayb.com/play?id=159117')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (83, 39, 11, N'https://chillhayb.com/play?id=159118')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (84, 40, 11, N'https://chillhayb.com/play?id=159119')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (85, 41, 11, N'https://chillhayb.com/play?id=159120')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (86, 42, 11, N'https://chillhayb.com/play?id=159121')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (87, 43, 11, N'https://chillhayb.com/play?id=159122')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (88, 44, 11, N'https://chillhayb.com/play?id=159123')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (89, 45, 11, N'https://chillhayb.com/play?id=159124')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (90, 46, 11, N'https://chillhayb.com/play?id=159125')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (91, 47, 11, N'https://chillhayb.com/play?id=159126')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (92, 48, 11, N'https://chillhayb.com/play?id=159127')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (93, 49, 11, N'https://chillhayb.com/play?id=159128')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (94, 50, 11, N'https://chillhayb.com/play?id=159129')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (95, 51, 11, N'https://chillhayb.com/play?id=159130')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (96, 52, 11, N'https://chillhayb.com/play?id=159131')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (97, 53, 11, N'https://chillhayb.com/play?id=159132')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (98, 54, 11, N'https://chillhayb.com/play?id=159133')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (99, 55, 11, N'https://chillhayb.com/play?id=159134')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (100, 56, 11, N'https://chillhayb.com/play?id=159135')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (101, 57, 11, N'https://chillhayb.com/play?id=159136')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (102, 58, 11, N'https://chillhayb.com/play?id=159137')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (103, 59, 11, N'https://chillhayb.com/play?id=159138')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (104, 60, 11, N'https://chillhayb.com/play?id=159139')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (105, 61, 11, N'https://chillhayb.com/play?id=159140')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (106, 62, 11, N'https://chillhayb.com/play?id=159141')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (107, 63, 11, N'https://chillhayb.com/play?id=159142')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (108, 64, 11, N'https://chillhayb.com/play?id=159143')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (109, 65, 11, N'https://chillhayb.com/play?id=159144')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (110, 66, 11, N'https://chillhayb.com/play?id=159145')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (111, 67, 11, N'https://chillhayb.com/play?id=159146')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (112, 68, 11, N'https://chillhayb.com/play?id=159147')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (113, 69, 11, N'https://chillhayb.com/play?id=159148')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (114, 70, 11, N'https://chillhayb.com/play?id=159149')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (115, 71, 11, N'https://chillhayb.com/play?id=159150')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (116, 72, 11, N'https://chillhayb.com/play?id=159151')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (117, 73, 11, N'https://chillhayb.com/play?id=159152')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (118, 74, 11, N'https://chillhayb.com/play?id=159153')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (119, 75, 11, N'https://chillhayb.com/play?id=159154')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (120, 76, 11, N'https://chillhayb.com/play?id=159155')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (121, 77, 11, N'https://chillhayb.com/play?id=159156')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (122, 78, 11, N'https://chillhayb.com/play?id=159157')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (123, 79, 11, N'https://chillhayb.com/play?id=159158')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (124, 80, 11, N'https://chillhayb.com/play?id=159159')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (125, 81, 11, N'https://chillhayb.com/play?id=159160')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (126, 82, 11, N'https://chillhayb.com/play?id=159161')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (127, 83, 11, N'https://chillhayb.com/play?id=159162')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (128, 84, 11, N'https://chillhayb.com/play?id=159163')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (129, 85, 11, N'https://chillhayb.com/play?id=159164')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (130, 86, 11, N'https://chillhayb.com/play?id=159165')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (131, 87, 11, N'https://chillhayb.com/play?id=159166')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (132, 88, 11, N'https://chillhayb.com/play?id=159167')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (133, 89, 11, N'https://chillhayb.com/play?id=159168')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (134, 90, 11, N'https://chillhayb.com/play?id=159169')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (135, 91, 11, N'https://chillhayb.com/play?id=159170')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (136, 92, 11, N'https://chillhayb.com/play?id=159171')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (137, 93, 11, N'https://chillhayb.com/play?id=159172')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (138, 94, 11, N'https://chillhayb.com/play?id=159173')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (139, 95, 11, N'https://chillhayb.com/play?id=159174')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (140, 96, 11, N'https://chillhayb.com/play?id=159175')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (141, 97, 11, N'https://chillhayb.com/play?id=159176')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (142, 98, 11, N'https://chillhayb.com/play?id=159177')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (143, 99, 11, N'https://chillhayb.com/play?id=159178')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (144, 100, 11, N'https://chillhayb.com/play?id=159179')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (145, 101, 11, N'https://chillhayb.com/play?id=159180')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (146, 102, 11, N'https://chillhayb.com/play?id=159181')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (147, 103, 11, N'https://chillhayb.com/play?id=159182')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (148, 104, 11, N'https://chillhayb.com/play?id=159183')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (149, 105, 11, N'https://chillhayb.com/play?id=159184')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (150, 106, 11, N'https://chillhayb.com/play?id=159185')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (151, 107, 11, N'https://chillhayb.com/play?id=159186')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (152, 108, 11, N'https://chillhayb.com/play?id=159187')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (153, 109, 11, N'https://chillhayb.com/play?id=159188')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (154, 110, 11, N'https://chillhayb.com/play?id=159189')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (155, 111, 11, N'https://chillhayb.com/play?id=159190')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (156, 112, 11, N'https://chillhayb.com/play?id=159191')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (157, 113, 11, N'https://chillhayb.com/play?id=159192')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (158, 114, 11, N'https://chillhayb.com/play?id=159193')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (159, 115, 11, N'https://chillhayb.com/play?id=159194')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (160, 116, 11, N'https://chillhayb.com/play?id=159195')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (161, 117, 11, N'https://chillhayb.com/play?id=159196')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (162, 118, 11, N'https://chillhayb.com/play?id=159197')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (163, 119, 11, N'https://chillhayb.com/play?id=159198')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (164, 120, 11, N'https://chillhayb.com/play?id=159199')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (165, 121, 11, N'https://chillhayb.com/play?id=159200')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (166, 122, 11, N'https://chillhayb.com/play?id=159201')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (167, 123, 11, N'https://chillhayb.com/play?id=159202')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (168, 124, 11, N'https://chillhayb.com/play?id=159203')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (169, 125, 11, N'https://chillhayb.com/play?id=159204')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (170, 126, 11, N'https://chillhayb.com/play?id=159205')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (171, 127, 11, N'https://chillhayb.com/play?id=159206')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (172, 128, 11, N'https://chillhayb.com/play?id=159207')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (173, 129, 11, N'https://chillhayb.com/play?id=159208')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (174, 130, 11, N'https://chillhayb.com/play?id=159209')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (175, 131, 11, N'https://chillhayb.com/play?id=159210')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (176, 132, 11, N'https://chillhayb.com/play?id=159211')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (177, 133, 11, N'https://chillhayb.com/play?id=159212')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (178, 134, 11, N'https://chillhayb.com/play?id=159213')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (179, 135, 11, N'https://chillhayb.com/play?id=159214')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (180, 136, 11, N'https://chillhayb.com/play?id=159215')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (181, 137, 11, N'https://chillhayb.com/play?id=159216')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (182, 138, 11, N'https://chillhayb.com/play?id=159217')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (183, 139, 11, N'https://chillhayb.com/play?id=159218')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (184, 140, 11, N'https://chillhayb.com/play?id=159219')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (185, 141, 11, N'https://chillhayb.com/play?id=159220')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (186, 142, 11, N'https://chillhayb.com/play?id=159221')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (187, 143, 11, N'https://chillhayb.com/play?id=159222')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (188, 144, 11, N'https://chillhayb.com/play?id=159223')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (189, 145, 11, N'https://chillhayb.com/play?id=159224')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (190, 146, 11, N'https://chillhayb.com/play?id=159225')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (191, 147, 11, N'https://chillhayb.com/play?id=159226')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (192, 148, 11, N'https://chillhayb.com/play?id=159227')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (193, 149, 11, N'https://chillhayb.com/play?id=159228')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (194, 150, 11, N'https://chillhayb.com/play?id=159229')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (195, 151, 11, N'https://chillhayb.com/play?id=159230')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (196, 152, 11, N'https://chillhayb.com/play?id=159231')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (197, 153, 11, N'https://chillhayb.com/play?id=159232')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (198, 154, 11, N'https://chillhayb.com/play?id=159233')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (199, 155, 11, N'https://chillhayb.com/play?id=159234')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (200, 156, 11, N'https://chillhayb.com/play?id=159235')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (201, 157, 11, N'https://chillhayb.com/play?id=159236')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (202, 158, 11, N'https://chillhayb.com/play?id=159237')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (203, 159, 11, N'https://chillhayb.com/play?id=159238')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (204, 160, 11, N'https://chillhayb.com/play?id=159239')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (205, 161, 11, N'https://chillhayb.com/play?id=159240')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (206, 162, 11, N'https://chillhayb.com/play?id=159241')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (207, 163, 11, N'https://chillhayb.com/play?id=159242')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (208, 164, 11, N'https://chillhayb.com/play?id=159243')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (209, 165, 11, N'https://chillhayb.com/play?id=159244')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (210, 166, 11, N'https://chillhayb.com/play?id=159245')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (211, 167, 11, N'https://chillhayb.com/play?id=159246')
+--van gioi than chu
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (221, 1, 7, N'https://chillhayb.com/play?id=206448')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (222, 2, 7, N'https://chillhayb.com/play?id=206449')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (223, 3, 7, N'https://chillhayb.com/play?id=206450')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (224, 4, 7, N'https://chillhayb.com/play?id=206451')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (225, 5, 7, N'https://chillhayb.com/play?id=206452')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (226, 6, 7, N'https://chillhayb.com/play?id=206453')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (227, 7, 7, N'https://chillhayb.com/play?id=206454')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (228, 8, 7, N'https://chillhayb.com/play?id=206455')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (229, 9, 7, N'https://chillhayb.com/play?id=206456')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (230, 10, 7, N'https://chillhayb.com/play?id=206457')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (231, 11, 7, N'https://chillhayb.com/play?id=206458')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (232, 12, 7, N'https://chillhayb.com/play?id=206459')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (233, 13, 7, N'https://chillhayb.com/play?id=206460')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (234, 14, 7, N'https://chillhayb.com/play?id=206461')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (235, 15, 7, N'https://chillhayb.com/play?id=206462')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (236, 16, 7, N'https://chillhayb.com/play?id=206463')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (237, 17, 7, N'https://chillhayb.com/play?id=206464')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (238, 18, 7, N'https://chillhayb.com/play?id=206465')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (239, 19, 7, N'https://chillhayb.com/play?id=206466')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (240, 20, 7, N'https://chillhayb.com/play?id=206467')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (241, 21, 7, N'https://chillhayb.com/play?id=206468')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (242, 22, 7, N'https://chillhayb.com/play?id=206469')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (243, 23, 7, N'https://chillhayb.com/play?id=206470')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (244, 24, 7, N'https://chillhayb.com/play?id=206471')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (245, 25, 7, N'https://chillhayb.com/play?id=206472')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (246, 26, 7, N'https://chillhayb.com/play?id=206473')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (247, 27, 7, N'https://chillhayb.com/play?id=206474')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (248, 28, 7, N'https://chillhayb.com/play?id=206475')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (249, 29, 7, N'https://chillhayb.com/play?id=206476')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (250, 30, 7, N'https://chillhayb.com/play?id=206477')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (251, 31, 7, N'https://chillhayb.com/play?id=206478')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (252, 32, 7, N'https://chillhayb.com/play?id=206479')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (253, 33, 7, N'https://chillhayb.com/play?id=206480')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (254, 34, 7, N'https://chillhayb.com/play?id=206481')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (255, 35, 7, N'https://chillhayb.com/play?id=206482')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (256, 36, 7, N'https://chillhayb.com/play?id=206483')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (257, 37, 7, N'https://chillhayb.com/play?id=206484')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (258, 38, 7, N'https://chillhayb.com/play?id=206485')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (259, 39, 7, N'https://chillhayb.com/play?id=206486')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (260, 40, 7, N'https://chillhayb.com/play?id=206487')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (261, 41, 7, N'https://chillhayb.com/play?id=206488')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (262, 42, 7, N'https://chillhayb.com/play?id=206489')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (263, 43, 7, N'https://chillhayb.com/play?id=206490')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (264, 44, 7, N'https://chillhayb.com/play?id=206491')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (265, 45, 7, N'https://chillhayb.com/play?id=206492')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (266, 46, 7, N'https://chillhayb.com/play?id=206493')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (267, 47, 7, N'https://chillhayb.com/play?id=206494')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (268, 48, 7, N'https://chillhayb.com/play?id=206495')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (269, 49, 7, N'https://chillhayb.com/play?id=206496')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (270, 50, 7, N'https://chillhayb.com/play?id=206497')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (271, 51, 7, N'https://chillhayb.com/play?id=206498')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (272, 52, 7, N'https://chillhayb.com/play?id=206499')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (273, 53, 7, N'https://chillhayb.com/play?id=206500')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (274, 54, 7, N'https://chillhayb.com/play?id=206501')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (275, 55, 7, N'https://chillhayb.com/play?id=206502')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (276, 56, 7, N'https://chillhayb.com/play?id=206503')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (277, 57, 7, N'https://chillhayb.com/play?id=206504')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (278, 58, 7, N'https://chillhayb.com/play?id=206505')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (279, 59, 7, N'https://chillhayb.com/play?id=206506')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (280, 60, 7, N'https://chillhayb.com/play?id=206507')
+--Thieu nien ca hanh
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (281, 1, 9, N'https://chillhayb.com/play?id=233299')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (282, 2, 9, N'https://chillhayb.com/play?id=233300')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (283, 3, 9, N'https://chillhayb.com/play?id=233301')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (284, 4, 9, N'https://chillhayb.com/play?id=233302')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (285, 5, 9, N'https://chillhayb.com/play?id=233303')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (286, 6, 9, N'https://chillhayb.com/play?id=233304')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (287, 7, 9, N'https://chillhayb.com/play?id=233305')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (288, 8, 9, N'https://chillhayb.com/play?id=233306')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (289, 9, 9, N'https://chillhayb.com/play?id=233307')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (290, 10, 9, N'https://chillhayb.com/play?id=233308')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (291, 11, 9, N'https://chillhayb.com/play?id=233309')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (292, 12, 9, N'https://chillhayb.com/play?id=233310')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (293, 13, 9, N'https://chillhayb.com/play?id=233311')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (294, 14, 9, N'https://chillhayb.com/play?id=233312')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (295, 15, 9, N'https://chillhayb.com/play?id=233313')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (296, 16, 9, N'https://chillhayb.com/play?id=233314')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (297, 17, 9, N'https://chillhayb.com/play?id=233315')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (298, 18, 9, N'https://chillhayb.com/play?id=233316')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (299, 19, 9, N'https://chillhayb.com/play?id=233317')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (300, 20, 9, N'https://chillhayb.com/play?id=233318')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (301, 21, 9, N'https://chillhayb.com/play?id=233319')
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (302, 22, 9, N'https://chillhayb.com/play?id=233320')
+---------------
+INSERT [dbo].[CTTapPhim] ([IDPhim], [TapPhim], [ID], [Link]) VALUES (303, 1,14,N'https://chillhayb.com/play?id=233321')
+
+--
+SET IDENTITY_INSERT [dbo].[CTTapPhim] OFF
+-------------
+SET IDENTITY_INSERT [dbo].[DSPhimBo] ON 
+INSERT [dbo].[DSPhimBo] ([ID], [TenPhim], [NoiDung], [NamPhatHanh], [IDTheLoai], [ThoiLuong], [Img], [MaQG], [LuotXem]) VALUES (1, N'Ẩn Danh', N'Taxi Driver là một bộ phim truyền hình Hàn Quốc với sự tham gia của Lee Je-hoon, Kim Eui-sung, Pyo Ye-jin, Jang Hyuk-jin, Bae Yoo-ram với Esom trong mùa đầu tiên và Shin Jae-ha trong mùa thứ hai. Dựa trên webtoon The Deluxe Taxi của Carlos và Lee Jae-jin.', 11, 2, N'16 Tập', N'taxidriver.jpg    ', 1, 2)
+INSERT [dbo].[DSPhimBo] ([ID], [TenPhim], [NoiDung], [NamPhatHanh], [IDTheLoai], [ThoiLuong], [Img], [MaQG], [LuotXem]) VALUES (2, N'HỒNG HOANG', N'Hồng Hoang Khuyển Cửu của tiêu cục 007 muốn bỏ nhà đi tự lập môn hộ, nghe nói tiêu cực Lăng Vân mạnh nhất sắp đi qua khe núi Xuyên Hạp nên rủ người anh em tốt là Cầu Điện đi xem. Nào ngờ gặp phải người máy RX-5 đến cướp hàng nên vô tình họ bị cuốn vào. Tuy ngăn cản được vụ cướp nhưng đoàn Lăng Tiêu bị tổn thất thành viên nghiêm trọng, Khuyển Cửu cũng hôn mê bất tỉnh. Người đến giải cứu phát hiện Khuyển Cửu mất đi ý thức và một cô gái không gõ lai lịch nằm trong hòm vận chuyển của Lăng Tiêu.', 11, 1, N'13 Tập', N'11.jpg    ', 3, 13)
+INSERT [dbo].[DSPhimBo] ([ID], [TenPhim], [NoiDung], [NamPhatHanh], [IDTheLoai], [ThoiLuong], [Img], [MaQG], [LuotXem]) VALUES (3, N'Vinland Saga', N'Một nghìn năm trước, thời đại xưng bá khắp nơi của các Viking đã thống trị Âu Châu và đến cả bờ đông của Châu Mỹ ngày nay. Thorfinn, con trai của chiến binh Viking vĩ đại nhất, đã phải xung trận từ bé và mài dũa để nối bước cha mình. Ước mơ của họ là đặt chân đến được miền đất hứa phía bên kia Đại Tây Dương, vùng đất Vinland.', 9, 1, N'24 Tập', N'1.jpg     ', 2, 4)
+INSERT [dbo].[DSPhimBo] ([ID], [TenPhim], [NoiDung], [NamPhatHanh], [IDTheLoai], [ThoiLuong], [Img], [MaQG], [LuotXem]) VALUES (4, N'Black Clover', N'Asta và Yuno đã bị bỏ rơi cùng nhau tại cùng một nhà thờ và đã không thể tách rời kể từ đó. Khi còn trẻ, họ hứa sẽ cạnh tranh với nhau để xem ai sẽ trở thành Hoàng đế Magus tiếp theo. Tuy nhiên, khi chúng lớn lên, một số khác biệt giữa chúng trở nên đơn giản. Yuno là một thiên tài với ma thuật, với sức mạnh và khả năng kiểm soát tuyệt vời, trong khi Asta không thể sử dụng ma thuật chút nào, và cố gắng bù đắp cho sự thiếu hụt của mình bằng cách luyện tập thể chất. Khi họ nhận được Grimoa của họ ở tuổi 15, Yuno đã có một cuốn sách ngoạn mục với cỏ ba lá bốn lá (hầu hết mọi người đều có một cây cỏ ba lá), trong khi Asta không nhận được gì cả. Tuy nhiên, khi Yuno bị đe dọa, sự thật về sức mạnh của Asta đã được tiết lộ, anh đã nhận được một cây cỏ ba lá Grimoire, một "cỏ ba lá đen"! Bây giờ hai người bạn đang hướng tới trên thế giới, cả hai đều mong muốn cùng một mục tiêu!', 7, 1, N'24 Tập', N'Black_Clover.jpg', 2, 25)
+INSERT [dbo].[DSPhimBo] ([ID], [TenPhim], [NoiDung], [NamPhatHanh], [IDTheLoai], [ThoiLuong], [Img], [MaQG], [LuotXem]) VALUES (5, N'Vạn Giới Tiên Tung', N'Mỗi bông hoa là 1 thế giới,  Phàm thế chỉ là một hạt cát bé nhỏ trong tay tiên ma  Tiên ma nhất niệm, nhân thế vạn năm  Sông núi vạn dặm cũng chỉ là kính hoa thủy nguyệt  Con người có 3 hồn 7 phách, sau khi chết hồn sẽ quay về bầu trời sao vạn giới  Nơi sâu của trời sao, chính là đàn tràng của tiên ma trong truyền thuyết', 8, 1, N'12 Tập', N'van-gioi-tien-tung.jpg', 3, 2)
+INSERT [dbo].[DSPhimBo] ([ID], [TenPhim], [NoiDung], [NamPhatHanh], [IDTheLoai], [ThoiLuong], [Img], [MaQG], [LuotXem]) VALUES (6, N'The K2', N'The K2 xoay quanh câu chuyện của Kim Je Ha, còn được gọi là K2, một người lính yêu nước bị chính Tổ quốc và đồng nghiệp phản bội. Giờ đây, anh ta được thuê làm vệ sĩ riêng cho Choi Yoo Jin, vợ của ứng cử viên Tổng thống đồng thời là ái nữ của một gia đình tài phiệt.  Go Ahn Na, cô con gái riêng của vị ứng cử viên Tổng thống. Những tổn thương thời thơ ấu khiến Go Ahn Na trở nên cô lập và ít giao tiếp với thế giới. Đối với cô, tình yêu chỉ là công cụ để trả thù. Đây là người sẽ khiến trái tim Kim Je Ha phải rung động?', 6, 2, N'16 Tập', N'k2.jpg', 1, 4)
+INSERT [dbo].[DSPhimBo] ([ID], [TenPhim], [NoiDung], [NamPhatHanh], [IDTheLoai], [ThoiLuong], [Img], [MaQG], [LuotXem]) VALUES (7, N'Vạn Giới Thần Chủ', N'Diệp Thần từ thế giới hiện đại xuyên không qua Nam Châu, thành chủ nhân Di Hồng Viện, trước khi lên đường tiến về phía bắc, nhận lời hỗ trợ thánh nữ Tuyết Ảnh tộc thoát khỏi khốn cảnh, lại không nghĩ rằng...', 9, 1, N'12 Tập', N'vangioithanchu.jpg', 3, 8)
+INSERT [dbo].[DSPhimBo] ([ID], [TenPhim], [NoiDung], [NamPhatHanh], [IDTheLoai], [ThoiLuong], [Img], [MaQG], [LuotXem]) VALUES (8, N'Linh Kiếm Tôn', N'Cường giả bị tập kích, phản lão hoàn đồng, trở thành thiếu chủ phế vật. Kẻ thù từ đời trước kiếp này, quyết không bỏ qua. Sai lầm kiếp trước, kiếp này quyết tâm bù đắp.  Linh Kiếm trường khiếu, thiên địa tam giới, ngã vi chí tôn!', 9, 1, N'12 Tập', N'linhkiemton.jpg', 3, 5)
+INSERT [dbo].[DSPhimBo] ([ID], [TenPhim], [NoiDung], [NamPhatHanh], [IDTheLoai], [ThoiLuong], [Img], [MaQG], [LuotXem]) VALUES (9, N'Thiếu Niên Ca Hành', N'Sau khi Vong Ưu đại sư của Hàn Thủy Tự tọa hóa, một cỗ quan tài vàng thần bí nhập thế, vén lên phân tranh trong giang hồ. Thế lực các nơi đối chọi gay gắt, Lôi Vô Kiệt, Tiêu Sắt, Đường Liên, Tư Không Thiên Lạc, Thiên Nữ Nhụy lần lượt rơi vào phân tranh. Sách mã giang hồ mộng, ỷ kiếm đạp ca hành. Câu chuyện về bí mật của quan tài vàng dần dần được hé mở…', 12, 14, N'26 Tập', N'thieu-nien-ca-hanh.jpg', 3, 13)
+INSERT [dbo].[DSPhimBo] ([ID], [TenPhim], [NoiDung], [NamPhatHanh], [IDTheLoai], [ThoiLuong], [Img], [MaQG], [LuotXem]) VALUES (10, N'Bokutachi wa Benkyou ga Dekinai S2', N'Phần 2 của bộ phim Bokutachi wa Benkyou ga Dekinai.', 9, 1, N'12 tập', N'bokutachi-wa-benkyou-ga-dekinai-2-thumbnail.jpg', 2, 46)
+INSERT [dbo].[DSPhimBo] ([ID], [TenPhim], [NoiDung], [NamPhatHanh], [IDTheLoai], [ThoiLuong], [Img], [MaQG], [LuotXem]) VALUES (11, N'Gia đình là số 1 - Phần 1', N'Gia đình là số 1 là một bộ phim truyền hình Việt Nam thuộc thể loại hài kịch tình huống được làm lại từ bộ phim cùng tên phiên bản Hàn Quốc Gia đình là số một.', 1, 3, N'167 tập', N'giadinhla1.jpg', 1, 2)
+INSERT [dbo].[DSPhimBo] ([ID], [TenPhim], [NoiDung], [NamPhatHanh], [IDTheLoai], [ThoiLuong], [Img], [MaQG], [LuotXem]) VALUES (12, N'Bleach huyết chiến ngàn năm', N'Phỏng theo câu chuyện cuối cùng của Bleach, Bleach: Huyết chiến Ngàn năm đưa chúng ta đến một cuộc chiến toàn năng giữa Tử thần và Quincys. Mối thâm thù ngàn năm sẽ được bộc lộ và hóa giải trong một sớm một chiều. Tất cả các đội trưởng sẽ ra trận. Ichigo cũng vậy. Cũng qua cuộc chiến này, Ichigo biết thêm về thân thế của mình và biết được câu chuyện về người mẹ quá cố của mình.', 12, 1, N'17 tập', N'bleachhcnn.jpg', 2, 4)
+INSERT [dbo].[DSPhimBo] ([ID], [TenPhim], [NoiDung], [NamPhatHanh], [IDTheLoai], [ThoiLuong], [Img], [MaQG], [LuotXem]) VALUES (13, N'Thương ngày nắng về', N'Thương ngày nắng về xoay quanh gia đình bà Nga (NSƯT Thanh Quý) bán bún riêu sống cùng cậu em trai không được thông minh và ba cô con gái. Là một người phụ nữ góa chồng bước vào độ tuổi 60 nhưng tâm trí của bà vẫn chưa hề an yên khi ba cô con gái dẫu đã lớn khôn nhưng luôn đầy những khúc mắc trong cuộc sống. Dù hay lắm điều, cằn nhằn, nóng nảy, nhưng với đức hi sinh và tình yêu thương vô hạn, bà luôn là một điểm tựa vững vàng cho em trai và những cô con gái của mình...', 11, 10, N'87 tập', N'giadinhla1.jpg', 7, 43)
+
+SET IDENTITY_INSERT [dbo].[DSPhimBo] OFF
+
+SET IDENTITY_INSERT [dbo].[DSPhimLe] ON 
+INSERT [dbo].[DSPhimLe] ([ID], [TenPhim], [NoiDung], [NamPhatHanh], [IDTheLoai], [ThoiLuong], [Img], [MaQG], [LuotXem], [Link]) VALUES (1, N'Biệt đội đánh thuê', N'Biệt đội đánh thuê 4 là phim hành động Mỹ được đạo diễn bởi Scott Waugh với phần kịch bản do Spenser Cohen, Max Adams và John Joseph Connolly chấp bút. Đây là phần hậu truyện của Biệt đội đánh thuê 3 và đồng thời cũng là phần phim thứ bốn của loạt phim Biệt đội đánh thuê.', 1, 1, N'1h46p', N'bietdoiDT.jpg', 1, 1, N'1')
+INSERT [dbo].[DSPhimLe] ([ID], [TenPhim], [NoiDung], [NamPhatHanh], [IDTheLoai], [ThoiLuong], [Img], [MaQG], [LuotXem], [Link]) VALUES (2, N'John Wick 4', N'John Wick: Chapter 4 là một bộ phim hành động neo-noir của Mỹ do Chad Stahelski đạo diễn và Shay Hatten và Michael Finch viết kịch bản. Là phần tiếp theo của Sát thủ John Wick: Phần 3 – Chuẩn bị chiến tranh, đây là phần phim thứ tư trong loạt phim John Wick', 1, 1, N'2h49m', N'johnwick4.jpg', 1, 1, N'1')
+SET IDENTITY_INSERT [dbo].[DSPhimLe] OFF
+
+SET IDENTITY_INSERT [dbo].[gioithieu] ON 
+INSERT [dbo].[gioithieu] ([idgioitin], [noidung], [sdtlien]) VALUES (1, N'xin Chào', N'sdt liên hệ: 0123456789')
+SET IDENTITY_INSERT [dbo].[gioithieu] OFF
+
+INSERT [dbo].[HopPhim] ([TenDN], [IDPhim]) VALUES (N'admin', 10)
+INSERT [dbo].[HopPhim] ([TenDN], [IDPhim]) VALUES (N'admin', 16)
+INSERT [dbo].[HopPhim] ([TenDN], [IDPhim]) VALUES (N'quangloc', 16)
+INSERT [dbo].[HopPhim] ([TenDN], [IDPhim]) VALUES (N'quangloc', 17)
+INSERT [dbo].[HopPhim] ([TenDN], [IDPhim]) VALUES (N'Sanh@321dSDFdgb', 5)
+INSERT [dbo].[HopPhim] ([TenDN], [IDPhim]) VALUES (N'Sanh@321dSDFdgb', 16)
+INSERT [dbo].[HopPhim] ([TenDN], [IDPhim]) VALUES (N'tuanphuc', 16)
+INSERT [dbo].[LichSu] ([TenDN], [IDPhim]) VALUES (N'admin', 1)
+INSERT [dbo].[LichSu] ([TenDN], [IDPhim]) VALUES (N'admin', 4)
+INSERT [dbo].[LichSu] ([TenDN], [IDPhim]) VALUES (N'admin', 5)
+INSERT [dbo].[LichSu] ([TenDN], [IDPhim]) VALUES (N'admin', 9)
+INSERT [dbo].[LichSu] ([TenDN], [IDPhim]) VALUES (N'admin', 16)
+INSERT [dbo].[LichSu] ([TenDN], [IDPhim]) VALUES (N'admin', 17)
+INSERT [dbo].[LichSu] ([TenDN], [IDPhim]) VALUES (N'quangloc', 1)
+INSERT [dbo].[LichSu] ([TenDN], [IDPhim]) VALUES (N'quangloc', 5)
+INSERT [dbo].[LichSu] ([TenDN], [IDPhim]) VALUES (N'quangloc', 16)
+INSERT [dbo].[LichSu] ([TenDN], [IDPhim]) VALUES (N'quangloc', 18)
+INSERT [dbo].[LichSu] ([TenDN], [IDPhim]) VALUES (N'Sanh@321dSDFdgb', 5)
+INSERT [dbo].[LichSu] ([TenDN], [IDPhim]) VALUES (N'Sanh@321dSDFdgb', 10)
+INSERT [dbo].[LichSu] ([TenDN], [IDPhim]) VALUES (N'Sanh@321dSDFdgb', 16)
+INSERT [dbo].[LichSu] ([TenDN], [IDPhim]) VALUES (N'thanhhuy', 5)
+INSERT [dbo].[LichSu] ([TenDN], [IDPhim]) VALUES (N'thanhhuy', 6)
+INSERT [dbo].[LichSu] ([TenDN], [IDPhim]) VALUES (N'thanhhuy', 8)
+INSERT [dbo].[LichSu] ([TenDN], [IDPhim]) VALUES (N'thanhhuy', 9)
+INSERT [dbo].[LichSu] ([TenDN], [IDPhim]) VALUES (N'thanhhuy', 10)
+INSERT [dbo].[LichSu] ([TenDN], [IDPhim]) VALUES (N'thanhhuy', 16)
+
+SET IDENTITY_INSERT [dbo].[Nam] ON 
+INSERT [dbo].[Nam] ([MaNam], [TenNam]) VALUES (1, 2011)
+INSERT [dbo].[Nam] ([MaNam], [TenNam]) VALUES (2, 2012)
+INSERT [dbo].[Nam] ([MaNam], [TenNam]) VALUES (3, 2013)
+INSERT [dbo].[Nam] ([MaNam], [TenNam]) VALUES (4, 2014)
+INSERT [dbo].[Nam] ([MaNam], [TenNam]) VALUES (5, 2015)
+INSERT [dbo].[Nam] ([MaNam], [TenNam]) VALUES (6, 2016)
+INSERT [dbo].[Nam] ([MaNam], [TenNam]) VALUES (7, 2017)
+INSERT [dbo].[Nam] ([MaNam], [TenNam]) VALUES (8, 2018)
+INSERT [dbo].[Nam] ([MaNam], [TenNam]) VALUES (9, 2019)
+INSERT [dbo].[Nam] ([MaNam], [TenNam]) VALUES (10, 2020)
+INSERT [dbo].[Nam] ([MaNam], [TenNam]) VALUES (11, 2021)
+INSERT [dbo].[Nam] ([MaNam], [TenNam]) VALUES (12, 2022)
+INSERT [dbo].[Nam] ([MaNam], [TenNam]) VALUES (13, 2023)
+SET IDENTITY_INSERT [dbo].[Nam] OFF
+
+SET IDENTITY_INSERT [dbo].[QuocGia] ON 
+INSERT [dbo].[QuocGia] ([MaQG], [TenQG]) VALUES (1, N'Hàn Quốc')
+INSERT [dbo].[QuocGia] ([MaQG], [TenQG]) VALUES (2, N'Nhật Bản ')
+INSERT [dbo].[QuocGia] ([MaQG], [TenQG]) VALUES (3, N'Trung Quốc')
+INSERT [dbo].[QuocGia] ([MaQG], [TenQG]) VALUES (4, N'Mỹ')
+INSERT [dbo].[QuocGia] ([MaQG], [TenQG]) VALUES (5, N'Pháp')
+INSERT [dbo].[QuocGia] ([MaQG], [TenQG]) VALUES (6, N'Thái Lan')
+INSERT [dbo].[QuocGia] ([MaQG], [TenQG]) VALUES (7, N'Việt Nam')
+INSERT [dbo].[QuocGia] ([MaQG], [TenQG]) VALUES (8, N'Quốc gia khác')
+SET IDENTITY_INSERT [dbo].[QuocGia] OFF
+
+INSERT [dbo].[TaiKhoan] ([TenDN], [MatKhau], [Quyen]) VALUES (N'admin', N'admin', 1)
+INSERT [dbo].[TaiKhoan] ([TenDN], [MatKhau], [Quyen]) VALUES (N'chisanh', N'123', 0)
+INSERT [dbo].[TaiKhoan] ([TenDN], [MatKhau], [Quyen]) VALUES (N'quangloc', N'123', NULL)
+INSERT [dbo].[TaiKhoan] ([TenDN], [MatKhau], [Quyen]) VALUES (N'Sanh@321dSDFdgb', N'12312ABC@312jidqjv', NULL)
+INSERT [dbo].[TaiKhoan] ([TenDN], [MatKhau], [Quyen]) VALUES (N'thanhhuy', N'123', 0)
+
+SET IDENTITY_INSERT [dbo].[TheLoai] ON 
+INSERT [dbo].[TheLoai] ([IDTheLoai], [TenTheLoai]) VALUES (1, N'Anime')
+INSERT [dbo].[TheLoai] ([IDTheLoai], [TenTheLoai]) VALUES (2, N'Hành Động')
+INSERT [dbo].[TheLoai] ([IDTheLoai], [TenTheLoai]) VALUES (3, N'Hài hước')
+INSERT [dbo].[TheLoai] ([IDTheLoai], [TenTheLoai]) VALUES (4, N'Võ thuật')
+INSERT [dbo].[TheLoai] ([IDTheLoai], [TenTheLoai]) VALUES (5, N'Học đường')
+INSERT [dbo].[TheLoai] ([IDTheLoai], [TenTheLoai]) VALUES (6, N'Thần thoại')
+INSERT [dbo].[TheLoai] ([IDTheLoai], [TenTheLoai]) VALUES (7, N'Phép thuật')
+INSERT [dbo].[TheLoai] ([IDTheLoai], [TenTheLoai]) VALUES (8, N'Khoa học')
+INSERT [dbo].[TheLoai] ([IDTheLoai], [TenTheLoai]) VALUES (9, N'Kinh dị')
+INSERT [dbo].[TheLoai] ([IDTheLoai], [TenTheLoai]) VALUES (10, N'Tình cảm')
+INSERT [dbo].[TheLoai] ([IDTheLoai], [TenTheLoai]) VALUES (11, N'Phiêu lưu')
+INSERT [dbo].[TheLoai] ([IDTheLoai], [TenTheLoai]) VALUES (12, N'Hoạt hình')
+INSERT [dbo].[TheLoai] ([IDTheLoai], [TenTheLoai]) VALUES (13, N'Chiến tranh')
+INSERT [dbo].[TheLoai] ([IDTheLoai], [TenTheLoai]) VALUES (14, N'Cổ trang')
+INSERT [dbo].[TheLoai] ([IDTheLoai], [TenTheLoai]) VALUES (15, N'Hình sự')
+INSERT [dbo].[TheLoai] ([IDTheLoai], [TenTheLoai]) VALUES (16, N'Tâm lý')
+SET IDENTITY_INSERT [dbo].[TheLoai] OFF
+
+SET IDENTITY_INSERT [dbo].[tintucphim] ON 
+INSERT [dbo].[tintucphim] ([idtintuc], [tieude], [tomtat], [noidung], [hinhanh], [ngaycapnhat], [luotxem]) VALUES (8, N'CHIẾN CÔNG LỊCH SỬ CỦA 24 AE VIỆT NAM - RAID TOANG NHÀ PHILIPPINES !!! - SCUM Server Việt Nam', N'CHIẾN CÔNG LỊCH SỬ CỦA 24 AE VIỆT NAM - RAID TOANG NHÀ PHILIPPINES !!! - SCUM Server Việt Nam', N'CHIẾN CÔNG LỊCH SỬ CỦA 24 AE VIỆT NAM - RAID TOANG NHÀ PHILIPPINES !!! - SCUM Server Việt Nam', N'faraz-shanyar-img-3900.jpg', CAST(0x55230B00 AS Date), 5)
+INSERT [dbo].[tintucphim] ([idtintuc], [tieude], [tomtat], [noidung], [hinhanh], [ngaycapnhat], [luotxem]) VALUES (12, N'fileName', N'fileName', N'fileName', N'72596273_p5.jpg', CAST(0x55230B00 AS Date), 3)
+INSERT [dbo].[tintucphim] ([idtintuc], [tieude], [tomtat], [noidung], [hinhanh], [ngaycapnhat], [luotxem]) VALUES (14, N'CHIẾN CÔNG LỊCH SỬ CỦA 24 AE VIaaaaaaaaaaaaaaaaaaaa', N'CHIẾN CÔNG LỊCH SỬ CỦA 24 AE VIỆT NAM - RAID TOANG NHÀ PHILIPPINES !!! - SCUM Server Việt Nam', N'CHIẾN CÔNG LỊCH SỬ CỦA 24 AE VIỆT NAM - RAID TOANG NHÀ PHILIPPINES !!! - SCUM Server Việt Nam', N'67327788_917046421975818_8421098014549999616_n.jpg', CAST(0x6C400B00 AS Date), 2)
+SET IDENTITY_INSERT [dbo].[tintucphim] OFF
+
+ALTER TABLE [dbo].[Banner]  WITH CHECK ADD  CONSTRAINT [FK_Banner_DSPhimBo] FOREIGN KEY([IDPhim])
+REFERENCES [dbo].[DSPhimBo] ([ID])
+GO
+ALTER TABLE [dbo].[Banner] CHECK CONSTRAINT [FK_Banner_DSPhimBo]
+GO
+ALTER TABLE [dbo].[CTTapPhim]  WITH CHECK ADD  CONSTRAINT [FK_CTTapPhim_DSPhimBo] FOREIGN KEY([ID])
+REFERENCES [dbo].[DSPhimBo] ([ID])
+GO
+ALTER TABLE [dbo].[CTTapPhim] CHECK CONSTRAINT [FK_CTTapPhim_DSPhimBo]
+GO
+ALTER TABLE [dbo].[DSPhimBo]  WITH CHECK ADD  CONSTRAINT [FK_DSPhimBo_Nam] FOREIGN KEY([NamPhatHanh])
+REFERENCES [dbo].[Nam] ([MaNam])
+GO
+ALTER TABLE [dbo].[DSPhimBo] CHECK CONSTRAINT [FK_DSPhimBo_Nam]
+GO
+ALTER TABLE [dbo].[DSPhimBo]  WITH CHECK ADD  CONSTRAINT [FK_DSPhimBo_QuocGia] FOREIGN KEY([MaQG])
+REFERENCES [dbo].[QuocGia] ([MaQG])
+GO
+ALTER TABLE [dbo].[DSPhimBo] CHECK CONSTRAINT [FK_DSPhimBo_QuocGia]
+GO
+ALTER TABLE [dbo].[DSPhimBo]  WITH CHECK ADD  CONSTRAINT [FK_DSPhimBo_TheLoai] FOREIGN KEY([IDTheLoai])
+REFERENCES [dbo].[TheLoai] ([IDTheLoai])
+GO
+ALTER TABLE [dbo].[DSPhimBo] CHECK CONSTRAINT [FK_DSPhimBo_TheLoai]
+GO
+ALTER TABLE [dbo].[DSPhimLe]  WITH CHECK ADD  CONSTRAINT [FK_DSPhimLe_Nam] FOREIGN KEY([NamPhatHanh])
+REFERENCES [dbo].[Nam] ([MaNam])
+GO
+ALTER TABLE [dbo].[DSPhimLe] CHECK CONSTRAINT [FK_DSPhimLe_Nam]
+GO
+ALTER TABLE [dbo].[DSPhimLe]  WITH CHECK ADD  CONSTRAINT [FK_DSPhimLe_QuocGia] FOREIGN KEY([MaQG])
+REFERENCES [dbo].[QuocGia] ([MaQG])
+GO
+ALTER TABLE [dbo].[DSPhimLe] CHECK CONSTRAINT [FK_DSPhimLe_QuocGia]
+GO
+ALTER TABLE [dbo].[DSPhimLe]  WITH CHECK ADD  CONSTRAINT [FK_DSPhimLe_TheLoai] FOREIGN KEY([IDTheLoai])
+REFERENCES [dbo].[TheLoai] ([IDTheLoai])
+GO
+ALTER TABLE [dbo].[DSPhimLe] CHECK CONSTRAINT [FK_DSPhimLe_TheLoai]
+GO
+--ALTER TABLE [dbo].[HopPhim]  WITH CHECK ADD  CONSTRAINT [FK_HopPhim_DSPhimBo] FOREIGN KEY([IDPhim])
+--REFERENCES [dbo].[DSPhimBo] ([ID])
+--GO
+--ALTER TABLE [dbo].[HopPhim] CHECK CONSTRAINT [FK_HopPhim_DSPhimBo]
+--GO
+ALTER TABLE [dbo].[HopPhim]  WITH CHECK ADD  CONSTRAINT [FK_HopPhim_TaiKhoan] FOREIGN KEY([TenDN])
+REFERENCES [dbo].[TaiKhoan] ([TenDN])
+GO
+ALTER TABLE [dbo].[HopPhim] CHECK CONSTRAINT [FK_HopPhim_TaiKhoan]
+GO
+--ALTER TABLE [dbo].[LichSu]  WITH CHECK ADD FOREIGN KEY([IDPhim])
+--REFERENCES [dbo].[DSPhimBo] ([ID])
+--GO
+ALTER TABLE [dbo].[LichSu]  WITH CHECK ADD FOREIGN KEY([TenDN])
+REFERENCES [dbo].[TaiKhoan] ([TenDN])
+GO
+USE [master]
+GO
+ALTER DATABASE [dbDoAnWeb] SET  READ_WRITE 
+GO

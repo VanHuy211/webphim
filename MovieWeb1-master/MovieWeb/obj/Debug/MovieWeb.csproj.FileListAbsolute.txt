@@ -1,0 +1,472 @@
+D:\THDAPM\MovieWeb\MovieWeb\obj\Debug\MovieWeb.csproj.AssemblyReference.cache
+D:\THDAPM\MovieWeb\MovieWeb\obj\Debug\MovieWeb.csproj.CoreCompileInputs.cache
+D:\THDAPM\MovieWeb\MovieWeb\bin\MovieWeb.dll.config
+D:\THDAPM\MovieWeb\MovieWeb\bin\MovieWeb.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\MovieWeb.pdb
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\csc.exe
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\csc.exe.config
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\csc.rsp
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\csi.exe
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\csi.exe.config
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\csi.rsp
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\Microsoft.Managed.Core.targets
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\System.AppContext.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\System.Collections.Immutable.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\System.Console.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\System.Globalization.Calendars.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\System.IO.Compression.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\System.IO.FileSystem.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\System.Net.Http.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\System.Net.Sockets.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\System.Reflection.Metadata.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\System.ValueTuple.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\System.Xml.XmlDocument.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\System.Xml.XPath.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\vbc.exe
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\vbc.exe.config
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\vbc.rsp
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\VBCSCompiler.exe
+D:\THDAPM\MovieWeb\MovieWeb\bin\roslyn\VBCSCompiler.exe.config
+D:\THDAPM\MovieWeb\MovieWeb\bin\Antlr3.Runtime.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\EntityFramework.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Newtonsoft.Json.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\PagedList.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\PagedList.Mvc.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Web.Helpers.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Web.Mvc.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Web.Optimization.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Web.Razor.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Web.WebPages.Deployment.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Web.WebPages.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Web.WebPages.Razor.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\WebGrease.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\EntityFramework.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\PagedList.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\PagedList.Mvc.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Web.Helpers.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Web.Mvc.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Web.Optimization.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Web.Razor.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Web.WebPages.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Web.WebPages.Deployment.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Web.WebPages.Razor.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Newtonsoft.Json.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Antlr3.Runtime.pdb
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\THDAPM\MovieWeb\MovieWeb\obj\Debug\MovieWeb.csproj.CopyComplete
+D:\THDAPM\MovieWeb\MovieWeb\obj\Debug\MovieWeb.dll
+D:\THDAPM\MovieWeb\MovieWeb\obj\Debug\MovieWeb.pdb
+D:\THDAPM\MovieWeb\MovieWeb\bin\Facebook.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Facebook.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Authentication.Core.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Authorization.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Http.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Mvc.Core.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Routing.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.DotNet.PlatformAbstractions.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.Extensions.DependencyModel.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.Extensions.ObjectPool.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.Extensions.Options.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.Extensions.Primitives.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.Net.Http.Headers.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Buffers.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.ComponentModel.Annotations.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Diagnostics.DiagnosticSource.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Memory.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Numerics.Vectors.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Text.Encodings.Web.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Threading.Tasks.Extensions.dll
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Authentication.Core.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Authorization.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Http.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Mvc.Core.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Routing.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.Extensions.ObjectPool.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.Extensions.Options.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.Extensions.Primitives.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\Microsoft.Net.Http.Headers.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Buffers.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Diagnostics.DiagnosticSource.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Memory.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Numerics.Vectors.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Text.Encodings.Web.xml
+D:\THDAPM\MovieWeb\MovieWeb\bin\System.Threading.Tasks.Extensions.xml
+D:\New folder\MovieWeb\MovieWeb\bin\MovieWeb.dll.config
+D:\New folder\MovieWeb\MovieWeb\bin\MovieWeb.dll
+D:\New folder\MovieWeb\MovieWeb\bin\MovieWeb.pdb
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\csc.exe
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\csc.exe.config
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\csc.rsp
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\csi.exe
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\csi.exe.config
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\csi.rsp
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\Microsoft.Managed.Core.targets
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\System.AppContext.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\System.Collections.Immutable.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\System.Console.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\System.Globalization.Calendars.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\System.IO.Compression.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\System.IO.FileSystem.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\System.Net.Http.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\System.Net.Sockets.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\System.Reflection.Metadata.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\System.ValueTuple.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\System.Xml.XmlDocument.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\System.Xml.XPath.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\vbc.exe
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\vbc.exe.config
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\vbc.rsp
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\VBCSCompiler.exe
+D:\New folder\MovieWeb\MovieWeb\bin\roslyn\VBCSCompiler.exe.config
+D:\New folder\MovieWeb\MovieWeb\bin\Antlr3.Runtime.dll
+D:\New folder\MovieWeb\MovieWeb\bin\EntityFramework.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Facebook.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Authentication.Core.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Authorization.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Http.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Http.Extensions.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Http.Features.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Mvc.Core.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Routing.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.WebUtilities.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.DotNet.PlatformAbstractions.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.Extensions.DependencyInjection.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.Extensions.DependencyModel.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.Extensions.Logging.Abstractions.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.Extensions.ObjectPool.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.Extensions.Options.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.Extensions.Primitives.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.Net.Http.Headers.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.Web.Infrastructure.dll
+D:\New folder\MovieWeb\MovieWeb\bin\Newtonsoft.Json.dll
+D:\New folder\MovieWeb\MovieWeb\bin\PagedList.dll
+D:\New folder\MovieWeb\MovieWeb\bin\PagedList.Mvc.dll
+D:\New folder\MovieWeb\MovieWeb\bin\System.Buffers.dll
+D:\New folder\MovieWeb\MovieWeb\bin\System.ComponentModel.Annotations.dll
+D:\New folder\MovieWeb\MovieWeb\bin\System.Diagnostics.DiagnosticSource.dll
+D:\New folder\MovieWeb\MovieWeb\bin\System.Memory.dll
+D:\New folder\MovieWeb\MovieWeb\bin\System.Numerics.Vectors.dll
+D:\New folder\MovieWeb\MovieWeb\bin\System.Runtime.CompilerServices.Unsafe.dll
+D:\New folder\MovieWeb\MovieWeb\bin\System.Text.Encodings.Web.dll
+D:\New folder\MovieWeb\MovieWeb\bin\System.Threading.Tasks.Extensions.dll
+D:\New folder\MovieWeb\MovieWeb\bin\System.Web.Helpers.dll
+D:\New folder\MovieWeb\MovieWeb\bin\System.Web.Mvc.dll
+D:\New folder\MovieWeb\MovieWeb\bin\System.Web.Optimization.dll
+D:\New folder\MovieWeb\MovieWeb\bin\System.Web.Razor.dll
+D:\New folder\MovieWeb\MovieWeb\bin\System.Web.WebPages.Deployment.dll
+D:\New folder\MovieWeb\MovieWeb\bin\System.Web.WebPages.dll
+D:\New folder\MovieWeb\MovieWeb\bin\System.Web.WebPages.Razor.dll
+D:\New folder\MovieWeb\MovieWeb\bin\WebGrease.dll
+D:\New folder\MovieWeb\MovieWeb\bin\EntityFramework.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Facebook.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Authentication.Core.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Authorization.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Http.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Http.Extensions.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Http.Features.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Mvc.Core.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Routing.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.AspNetCore.WebUtilities.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.Extensions.DependencyInjection.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.Extensions.Logging.Abstractions.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.Extensions.ObjectPool.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.Extensions.Options.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.Extensions.Primitives.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.Net.Http.Headers.xml
+D:\New folder\MovieWeb\MovieWeb\bin\PagedList.xml
+D:\New folder\MovieWeb\MovieWeb\bin\PagedList.Mvc.xml
+D:\New folder\MovieWeb\MovieWeb\bin\System.Buffers.xml
+D:\New folder\MovieWeb\MovieWeb\bin\System.Diagnostics.DiagnosticSource.xml
+D:\New folder\MovieWeb\MovieWeb\bin\System.Memory.xml
+D:\New folder\MovieWeb\MovieWeb\bin\System.Numerics.Vectors.xml
+D:\New folder\MovieWeb\MovieWeb\bin\System.Runtime.CompilerServices.Unsafe.xml
+D:\New folder\MovieWeb\MovieWeb\bin\System.Text.Encodings.Web.xml
+D:\New folder\MovieWeb\MovieWeb\bin\System.Threading.Tasks.Extensions.xml
+D:\New folder\MovieWeb\MovieWeb\bin\System.Web.Helpers.xml
+D:\New folder\MovieWeb\MovieWeb\bin\System.Web.Mvc.xml
+D:\New folder\MovieWeb\MovieWeb\bin\System.Web.Optimization.xml
+D:\New folder\MovieWeb\MovieWeb\bin\System.Web.Razor.xml
+D:\New folder\MovieWeb\MovieWeb\bin\System.Web.WebPages.xml
+D:\New folder\MovieWeb\MovieWeb\bin\System.Web.WebPages.Deployment.xml
+D:\New folder\MovieWeb\MovieWeb\bin\System.Web.WebPages.Razor.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Newtonsoft.Json.xml
+D:\New folder\MovieWeb\MovieWeb\bin\Antlr3.Runtime.pdb
+D:\New folder\MovieWeb\MovieWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+D:\New folder\MovieWeb\MovieWeb\obj\Debug\MovieWeb.csproj.AssemblyReference.cache
+D:\New folder\MovieWeb\MovieWeb\obj\Debug\MovieWeb.csproj.CoreCompileInputs.cache
+D:\New folder\MovieWeb\MovieWeb\obj\Debug\MovieWeb.csproj.CopyComplete
+D:\New folder\MovieWeb\MovieWeb\obj\Debug\MovieWeb.dll
+D:\New folder\MovieWeb\MovieWeb\obj\Debug\MovieWeb.pdb
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\MovieWeb.dll.config
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\MovieWeb.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\MovieWeb.pdb
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\csc.exe
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\csc.exe.config
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\csc.rsp
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\csi.exe
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\csi.exe.config
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\csi.rsp
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\System.AppContext.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\System.Console.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\System.IO.Compression.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\System.Net.Http.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\System.Net.Sockets.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\System.ValueTuple.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\System.Xml.XPath.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\vbc.exe
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\vbc.exe.config
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\vbc.rsp
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\VBCSCompiler.exe
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Antlr3.Runtime.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\EntityFramework.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Facebook.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Authentication.Abstractions.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Authentication.Core.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Authorization.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Authorization.Policy.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Hosting.Abstractions.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Http.Abstractions.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Http.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Http.Extensions.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Http.Features.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Mvc.Abstractions.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Mvc.Core.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Routing.Abstractions.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Routing.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.WebUtilities.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.DotNet.PlatformAbstractions.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.Extensions.DependencyInjection.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.Extensions.DependencyModel.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.Extensions.FileProviders.Abstractions.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.Extensions.Hosting.Abstractions.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.Extensions.Logging.Abstractions.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.Extensions.ObjectPool.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.Extensions.Options.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.Extensions.Primitives.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.Net.Http.Headers.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Newtonsoft.Json.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\PagedList.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\PagedList.Mvc.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Buffers.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.ComponentModel.Annotations.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Diagnostics.DiagnosticSource.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Memory.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Numerics.Vectors.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Text.Encodings.Web.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Threading.Tasks.Extensions.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Web.Helpers.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Web.Mvc.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Web.Optimization.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Web.Razor.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Web.WebPages.Deployment.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Web.WebPages.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Web.WebPages.Razor.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\WebGrease.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\EntityFramework.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Facebook.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Authentication.Abstractions.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Authentication.Core.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Authorization.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Authorization.Policy.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Hosting.Abstractions.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Hosting.Server.Abstractions.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Http.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Http.Abstractions.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Http.Extensions.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Http.Features.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Mvc.Abstractions.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Mvc.Core.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.ResponseCaching.Abstractions.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Routing.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.Routing.Abstractions.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.AspNetCore.WebUtilities.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.Extensions.Configuration.Abstractions.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.Extensions.DependencyInjection.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.Extensions.DependencyInjection.Abstractions.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.Extensions.FileProviders.Abstractions.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.Extensions.Hosting.Abstractions.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.Extensions.Logging.Abstractions.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.Extensions.ObjectPool.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.Extensions.Options.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.Extensions.Primitives.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.Net.Http.Headers.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\PagedList.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\PagedList.Mvc.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Buffers.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Diagnostics.DiagnosticSource.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Memory.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Numerics.Vectors.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Text.Encodings.Web.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Threading.Tasks.Extensions.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Web.Helpers.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Web.Mvc.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Web.Optimization.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Web.Razor.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Web.WebPages.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Web.WebPages.Deployment.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\System.Web.WebPages.Razor.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Newtonsoft.Json.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Antlr3.Runtime.pdb
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\obj\Debug\MovieWeb.csproj.AssemblyReference.cache
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\obj\Debug\MovieWeb.csproj.CoreCompileInputs.cache
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\obj\Debug\MovieWeb.csproj.Up2Date
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\obj\Debug\MovieWeb.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\obj\Debug\MovieWeb.pdb
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.Configuration.ConfigurationBuilders.Base.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.dll
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.Configuration.ConfigurationBuilders.Base.xml
+C:\Users\tuvan\Desktop\MovieWeb1-master\MovieWeb1-master\MovieWeb\bin\Microsoft.Configuration.ConfigurationBuilders.UserSecrets.xml
